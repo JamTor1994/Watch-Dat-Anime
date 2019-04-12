@@ -1,0 +1,10 @@
+<li class="list-group-item">
+	{{name}}
+	<button type="button" class="btn btn-warning change-watched" data-id="{{id}}"
+		data-newwatched="{{watched}}">
+		{{#if watched}}Read/ Watch{{else}}Watch/Read Again?{{/if}}
+	</button>
+
+
+	<button type="button" class="btn btn-danger delete-anime"  data-id="{{this.id}}">Delete</button>
+</li>
